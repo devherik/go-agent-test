@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"go-agent-test/infrastructure"
+	"github.com/devherik/go-agent-test/infrastructure"
 )
 
 type WeatherAgent struct {

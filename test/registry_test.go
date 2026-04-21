@@ -1,11 +1,10 @@
 package test
 
-
 import (
 	"context"
 	"testing"
 
-	"go-agent-test/agent"
+	"github.com/devherik/go-agent-test/agent"
 
 	"google.golang.org/genai"
 )

@@ -8,8 +8,8 @@ import (
 	"github.com/joho/godotenv"
 	"google.golang.org/genai"
 
-	"go-agent-test/agent"
-	"go-agent-test/infrastructure"
+	"github.com/devherik/go-agent-test/agent"
+	"github.com/devherik/go-agent-test/infrastructure"
 )
 
 func main() {

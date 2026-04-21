@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"testing"
 
-	"go-agent-test/agent"
-	"go-agent-test/infrastructure"
+	"github.com/devherik/go-agent-test/agent"
+	"github.com/devherik/go-agent-test/infrastructure"
 
 	"google.golang.org/genai"
 )
@@ -71,7 +71,7 @@ func TestWeatherAgent_Run_Success(t *testing.T) {
 
 	// 3. Run
 	result, err := a.Run(context.Background(), "How is the weather in London?")
-	
+
 	// 4. Assertions
 	if err != nil {
 		t.Fatalf("agent run failed: %v", err)
